@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.header {
+    background: #000;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+.header a {
+    color: antiquewhite;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* Other else */
+
+.container {
+    width: 1200px;
+    margin: auto;
+    font-size: 0;
+}
+
+.blue-box {
+    background: #00ffff;
+    width: 400px;
+    height: 400px;
+    font-size: 20px;
+    border: 2px solid red;
+    overflow: hidden;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+}
+.blue-box:nth-child(2){
+    border-left: none;
+    border-right: none;
+}
+.second-row-left {
+    background: #49ff00;
+    display:inline-block;
+    width: 800px;
+    height: 400px;
+}
+.second-row-right {
+    background: #49ff00;
+    display:inline-block;
+    width: 400px;
+    height: 400px;
+}
+
+.second-row-left .second-row-box {
+    height: 200px;
+    border: 2px solid red;
+    border-top: none;
+    border-right: none;
+}
+.second-row-right .second-row-box {
+    height: 33.334%;
+    border: 2px solid red;
+    border-top: none;
+}
+.third-row-left {
+    background: #ff7a00;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+    border-top: none;
+    border-right: none;
+}
+.third-row-right {
+    background: #ff7a00;
+    display: inline-block;
+    width: 800px;
+    height: 400px;
+}
+.third-row-right-down-left {
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    border: 2px solid red;
+    border-right: none;
+}
+.third-row-right-down-right {
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    border: 2px solid red;
+}
+.third-row-right-up {
+    height: 200px;
+    border: 2px solid red;
+    border-top: none;
+    border-bottom: none;
+}
+.third-row-right-down {
+    height: 200px;
+}
+.third-row-right-down-right-up {
+    height: 100px;
+    border: 1px solid red;
+    border-left: none;
+
+}
+.third-row-right-down-right-down {
+    height: 100px;
+    border: 1px solid red;
+    border-left: none;
+}
